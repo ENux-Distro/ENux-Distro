@@ -1,8 +1,8 @@
 <div align="center">
 
-# ENux-Distro
+# Emir YILDIRIM
 
-**Linux distribution developer · Systems programmer · Educator**
+**Linux distribution developer · Pianist**
 
 [![DistroWatch](https://img.shields.io/badge/DistroWatch-listed-blue?style=flat-square&logo=linux&logoColor=white)](https://distrowatch.com)
 [![SourceForge](https://img.shields.io/badge/SourceForge-hosted-orange?style=flat-square&logo=sourceforge&logoColor=white)](https://sourceforge.net)
@@ -14,28 +14,28 @@
 
 ## About Me
 
-I build Linux distributions and low-level systems software. My main project is **ENux** — a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
+Hi everyone, I'm Emir. I'm 13 years old and I build Linux distributions and low-level systems software. My main project is **ENux** — a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
 
-Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, and a minimal libc. I also work as a teacher, preparing curriculum materials for 7th grade students.
+Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, and a minimal libc. I also play the piano in my free time.
 
 ---
 
 ## Projects
 
-### 🐧 ENux
-> *The first Linux distribution to ship with Bedrock Linux pre-installed.*
+### ENux
+> *The first Linux distribution to ship with Bedrock Linux pre-installed. and 15 package managers in the live environment*
 
-A Debian-based hybrid meta-distribution that gives you access to packages from virtually any Linux distro simultaneously via Bedrock's `strata`. Features 13+ package managers in the live environment, Secure Boot support (shim + MOK + signed GRUB + signed kernel), and a reproducible CLI ISO builder.
+A Debian-based hybrid meta-distribution that gives you access to packages from virtually any Linux distro simultaneously via Bedrock's `strata`. Features 13+ package managers in the live environment, custom kernels and customized XFCE
 
 - Pre-fetched Bedrock strata (~3 GB ISO)
-- `brl fetch` works in chroot non-PID 1 environments via xattr workaround — a Linux first
+- `brl fetch` works in chroot non-PID 1 environments via xattr workaround
 - Kernel postinstall hook for automatic Secure Boot signing
 
 [![ENux Repo](https://img.shields.io/badge/GitHub-ENux-181717?style=flat-square&logo=github)](https://github.com/ENux-Distro/ENux)
 
 ---
 
-### ⚡ init.c
+### init.c
 > *C + x86\_64 ASM replacement for Bedrock Linux's shell-based init system.*
 
 Dramatically reduces boot time by replacing Bedrock's shell init with a compiled binary. Addresses Bedrock's crossfs architecture directly. Recognized by Bedrock Linux's creator (paradigm) on Reddit, who noted `brl-repair` and `brl-enable` as targets for further optimization.
@@ -44,29 +44,10 @@ Dramatically reduces boot time by replacing Bedrock's shell init with a compiled
 
 ---
 
-### 📦 epm
+### epm
 > *A C-written package manager with a custom `.epm` package format.*
 
 Mirror-based package downloading, install record tracking, and full `install` / `purge` / `sync` / `clean` command support. Built from scratch for ENux.
-
----
-
-### 🌐 ENux Browser
-> *Minimal Chromium-based browser, fully de-branded.*
-
-Ships with uBlock Origin pre-installed, a custom new tab page, and all Google/Chrome branding removed.
-
----
-
-### 📦 EPkgOS / Mini-Linux / ShellOS
-A family of experimental Linux distributions exploring different design philosophies — from source-based packaging (EPkgOS) to ultra-minimal setups (Mini-Linux) and handwritten shell + init systems (ShellOS).
-
----
-
-### 🔬 E-Kernel
-> *A lightweight kernel with POSIX-style system calls for a UNIX userland.*
-
-Supports the custom "E-Kernel Shell" and is designed to be as minimal as possible while remaining functional.
 
 ---
 
@@ -77,7 +58,6 @@ Supports the custom "E-Kernel Shell" and is designed to be as minimal as possibl
 ![x86\_64 ASM](https://img.shields.io/badge/x86__64_ASM-grey?style=flat-square&logo=assemblyscript&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white)
-![ncurses](https://img.shields.io/badge/ncurses-TUI-informational?style=flat-square)
 
 ---
 
@@ -94,5 +74,5 @@ Supports the custom "E-Kernel Shell" and is designed to be as minimal as possibl
 ---
 
 <div align="center">
-<sub>Building Linux from the ground up — one stratum at a time.</sub>
+<sub>Why use one, when you can use them all</sub>
 </div>
