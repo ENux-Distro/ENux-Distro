@@ -75,4 +75,5 @@ Mirror-based package downloading, install record tracking, and full `install` / 
 
 <div align="center">
 <sub>Why use one, when you can use them all</sub>
+<sub>                                     - A wise man</sub>
 </div>
