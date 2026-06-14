@@ -14,7 +14,7 @@
 
 ## About Me
 
-Hi everyone, I'm Emir. I'm 13 years old and I build Linux distributions and low-level systems software. My main project is **ENux** — a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
+Hi everyone, I'm Emir. I'm 13 years old and I build Linux distributions and low-level systems software. My main project is **ENux**, a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
 
 Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, and a minimal libc. I also play the piano in my free time.
 
@@ -25,7 +25,7 @@ Beyond distro work, I write systems tooling in C, including a custom package man
 ### ENux
 > *The first Linux distribution to ship with Bedrock Linux pre-installed. and 15 package managers in the live environment*
 
-A Debian-based hybrid meta-distribution that gives you access to packages from virtually any Linux distro simultaneously via Bedrock's `strata`. Features 13+ package managers in the live environment, custom kernels and customized XFCE
+A Debian-based hybrid meta-distribution that gives you access to packages from virtually any Linux distro simultaneously via Bedrock's `strata`. Features 15 package managers in the live environment, custom kernels and customized XFCE
 
 - Pre-fetched Bedrock strata (~3 GB ISO)
 - `brl fetch` works in chroot non-PID 1 environments via xattr workaround
