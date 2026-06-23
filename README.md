@@ -14,7 +14,7 @@
 
 ## About Me
 
-Hi everyone, I'm Emir. I'm 13 years old and I build Linux distributions and low-level systems software. My main project is **ENux**, a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
+Hi everyone, I'm Emir. I'm a Turk who builds Linux distributions and low-level systems software. My main project is **ENux**, a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
 
 Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, and a minimal libc. I also play the piano in my free time.
 
