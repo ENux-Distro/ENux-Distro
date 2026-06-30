@@ -61,6 +61,9 @@ Mirror-based package downloading, install record tracking, and full `install` / 
 
 ---
 
+<!-- FOLLOWERS_LIST_START -->
+<!-- FOLLOWERS_LIST_END -->
+
 ## GitHub Stats
 
 <div align="center">
