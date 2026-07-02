@@ -61,6 +61,10 @@ Mirror-based package downloading, install record tracking, and full `install` / 
 
 ---
 
+## Star History of ENux
+
+[![Star History Chart](https://api.star-history.com/chart?repos=ENux-Distro/ENux&type=date&legend=top-left)](https://www.star-history.com/?repos=ENux-Distro%2FENux&type=date&legend=top-left)
+
 <!-- FOLLOWERS_LIST_START -->
 
 ### [My Most Famous Followers](https://github.com/Joe-Huber/my-most-followed-followers)
