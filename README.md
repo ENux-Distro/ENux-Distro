@@ -8,7 +8,7 @@
 [![SourceForge](https://img.shields.io/badge/SourceForge-hosted-orange?style=flat-square&logo=sourceforge&logoColor=white)](https://sourceforge.net/projects/enux)
 [![GitHub Org](https://img.shields.io/badge/GitHub-ENux--Distro-181717?style=flat-square&logo=github)](https://github.com/ENux-Distro)
 
-</div>
+</div> 
 
 ---
 
