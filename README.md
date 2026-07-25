@@ -2,7 +2,7 @@
 
 # Emir YILDIRIM
 
-**Linux distribution developer · Pianist**
+**Linux distribution developer · Low Level Unix Programmer · Pianist**
 
 [![DistroWatch](https://img.shields.io/badge/DistroWatch-listed-blue?style=flat-square&logo=linux&logoColor=white)](https://distrowatch.com/enux)
 [![SourceForge](https://img.shields.io/badge/SourceForge-hosted-orange?style=flat-square&logo=sourceforge&logoColor=white)](https://sourceforge.net/projects/enux)
@@ -14,42 +14,53 @@
 
 ## About Me
 
-Hi everyone, I'm Emir. I'm a Turk who builds Linux distributions and low-level systems software. My main project is **ENux**, a Debian-based hybrid meta-distribution with Bedrock Linux pre-integrated, making it the first Linux distro to ship with Bedrock pre-installed. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
+Hi everyone, I'm Emir. I'm a 13 year old guy from Türkiye who builds Linux distributions and low-level systems software. My main project is **ENux**, an LFS based Linux distribution with the implementation of The ENux Layer and multiple Linux ecosystem support. ENux is listed on DistroWatch and hosted on both GitHub and SourceForge.
 
-Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, and a minimal libc. I also play the piano in my free time.
+Beyond distro work, I write systems tooling in C, including a custom package manager, a replacement init system, a minimal libc and more. I maintain my own Linux fork, and play the piano in my free time.
 
 ---
+
+## Philosophy In My Projects
+
+I like to follow the "Make it work everywhere" philosophy on ENux and Unix/Suckless/KISS philosophy in my C projects.
+
+In my opinion, when you run ``ls`` in a project, you shouldn't see lots of .md files, lots of tutorials, and lots of how to's. You shall see this:
+
+```bash
+$ ls
+Makefile
+README.md
+a.out
+main.c
+```
+
 
 ## Projects
 
 ### ENux
-> *The first Linux distribution to ship with Bedrock Linux pre-installed. and 15 package managers in the live environment*
+> *LFS based Linux distribution with the implementation of The ENux Layer and multiple Linux eco system support
 
-A Debian-based hybrid meta-distribution that gives you access to packages from virtually any Linux distro simultaneously via Bedrock's `strata`. Features 15 package managers in the live environment, custom kernels and customized XFCE
+An LFS based Linux distribution with its own meta layer called The ENux Layer, a custom installer, custom compiled kernel, custom initramfs builder and many more.
 
-- Pre-fetched Bedrock strata (~3 GB ISO)
-- `brl fetch` works in chroot non-PID 1 environments via xattr workaround
-- Kernel postinstall hook for automatic Secure Boot signing
+- Pre-installed layers are included
+- Installer that may or may not also hijack Bedrock alongside of The ENux Layer
+- TTY/CLI first philosophy
+
 
 [![ENux Repo](https://img.shields.io/badge/GitHub-ENux-181717?style=flat-square&logo=github)](https://github.com/ENux-Distro/ENux)
+[![The ENux Layer Repo](https://img.shields.io/badge/GitHub-ENux-181717?style=flat-square&logo=github)](https://github.com/ENux-Distro/The-ENux-Layer)
 
 ---
 
 ### init.c
-> *C + x86\_64 ASM replacement for Bedrock Linux's shell-based init system.*
+> *Custom C + x86_64 ASM init for The ENux Layer*
 
-Dramatically reduces boot time by replacing Bedrock's shell init with a compiled binary. Addresses Bedrock's crossfs architecture directly. Recognized by Bedrock Linux's creator (paradigm) on Reddit, who noted `brl-repair` and `brl-enable` as targets for further optimization.
+Mounts virtual fs's, spins up the layers, and handles PID 1 control over to the host init.
 
 [![init.c Repo](https://img.shields.io/badge/GitHub-init.c-181717?style=flat-square&logo=github)](https://github.com/ENux-Distro/init.c)
 
 ---
 
-### epm
-> *A C-written package manager with a custom `.epm` package format.*
-
-Mirror-based package downloading, install record tracking, and full `install` / `purge` / `sync` / `clean` command support. Built from scratch for ENux.
-
----
 
 ## Tech Stack
 
