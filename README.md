@@ -74,7 +74,13 @@ Mounts virtual fs's, spins up the layers, and handles PID 1 control over to the 
 
 ## Star History of ENux
 
-[![Star History Chart](https://api.star-history.com/chart?repos=ENux-Distro/ENux&type=date&legend=top-left)](https://www.star-history.com/?repos=ENux-Distro%2FENux&type=date&legend=top-left)
+<a href="https://www.star-history.com/?repos=ENux-Distro%2FENux&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ENux-Distro/ENux&type=date&theme=dark&legend=top-left&sealed_token=hucKOBwdxO3EsXuPhxSqY4vMhiYiWd9uWAM0BiekDyFEjkGLfVb2fnFstZ04vVYTIK1JU6SsTxqOADmODR7aFGKR-X5axn3rRa0DEVi1DVM4sTlomQdxQQ" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ENux-Distro/ENux&type=date&legend=top-left&sealed_token=hucKOBwdxO3EsXuPhxSqY4vMhiYiWd9uWAM0BiekDyFEjkGLfVb2fnFstZ04vVYTIK1JU6SsTxqOADmODR7aFGKR-X5axn3rRa0DEVi1DVM4sTlomQdxQQ" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ENux-Distro/ENux&type=date&legend=top-left&sealed_token=hucKOBwdxO3EsXuPhxSqY4vMhiYiWd9uWAM0BiekDyFEjkGLfVb2fnFstZ04vVYTIK1JU6SsTxqOADmODR7aFGKR-X5axn3rRa0DEVi1DVM4sTlomQdxQQ" />
+ </picture>
+</a>
 
 <!-- FOLLOWERS_LIST_START -->
 
